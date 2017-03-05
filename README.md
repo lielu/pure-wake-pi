@@ -1,9 +1,12 @@
 # pure-wake-pi
 Auto wake word client on Raspberry Pi.
-![](../../wiki/assets/alexa-logo-3.png)
 
 ## About the project
+This project starts from a fork from the Alexa Voice Service Raspberry Pi sample code. It aims at creating a solution on Raspberry Pi to interact with Wake Word Engines (supported by AVS sample) and respond to the wake word in Java client.
 
+Initial objective is to create a hardware prototype to control turning on/off lights.
+
+**From AVS sample**
 This project provides a step-by-step walkthrough to help you build a **hands-free** [Alexa Voice Service](https://developer.amazon.com/avs) (AVS) prototype in 60 minutes, using wake word engines from [Sensory](https://github.com/Sensory/alexa-rpi) or [KITT.AI](https://github.com/Kitt-AI/snowboy). Now, in addition to pushing a button to "start listening", you can now also just say the wake word "Alexa", much like the [Amazon Echo](https://amazon.com/echo). You can find step-by-step instructions to set up the hands-free prototype on [Raspberry Pi](../../wiki/Raspberry-Pi), or follow the instructions to set up the push-to-talk only prototype on [Linux](../../wiki/Linux), [Mac](../../wiki/Mac), or [Windows](../../wiki/Windows).
 
 *NEW!* - [Click here](../../wiki/Conexant2Mic-Raspberry-Pi) for instructions to build the AVS Prototype using a Raspberry Pi and the Conexant 2-Mic Development Kit for Amazon AVS
