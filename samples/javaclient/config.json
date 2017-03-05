@@ -1,0 +1,21 @@
+{
+    "productId":"raspberry_pi_3",
+    "dsn":"123456789",
+    "provisioningMethod":"companionService",
+    "wakeWordAgentEnabled":true,
+    "locale":"en-US",
+    "avsHost":"https://avs-alexa-na.amazon.com",
+    "companionApp":{
+        "localPort":8443,
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"/home/pi/projects/alexa-avs-sample-app/samples/javaclient/certs/server/jetty.pkcs12",
+        "sslKeyStorePassphrase":""
+    },
+    "companionService":{
+        "serviceUrl":"https://localhost:3000",
+        "sslClientKeyStore":"/home/pi/projects/alexa-avs-sample-app/samples/javaclient/certs/client/client.pkcs12",
+        "sslClientKeyStorePassphrase":"",
+        "sslCaCert":"/home/pi/projects/alexa-avs-sample-app/samples/javaclient/certs/ca/ca.crt",
+        "sessionId":"25d13cbe-048b-4fef-b78c-81c566a10cac"
+    }
+}

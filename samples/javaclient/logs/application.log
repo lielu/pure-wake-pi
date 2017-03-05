@@ -1,0 +1,3401 @@
+22:58:38.097 [main] INFO  com.amazon.alexa.avs.AVSController - Creating Wake Word IPC | port number: 5123
+22:58:39.114 [main] INFO  com.amazon.alexa.avs.AVSController - Created Wake Word IPC ok.
+22:58:39.121 [main] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+22:58:39.215 [main] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+22:58:40.098 [Thread-1] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - New IPC client was accepted, current of current clients is 1
+22:58:40.706 [main] INFO  com.amazon.alexa.avs.http.AVSClient - HttpClient starting
+22:58:41.574 [main] INFO  com.amazon.alexa.avs.http.AVSClient - HttpClient started
+22:58:42.575 [main] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "Settings",
+      "name" : "SettingsUpdated",
+      "messageId" : "6d42c40c-a028-420a-9a89-aceb9ac49438"
+    },
+    "payload" : {
+      "settings" : [ {
+        "key" : "locale",
+        "value" : "en-US"
+      } ]
+    }
+  }
+}
+22:58:42.664 [pool-6-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "SynchronizeState",
+      "messageId" : "599af52d-c7d1-44b7-a7f8-1f2e301e736f"
+    },
+    "payload" : { }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "IDLE"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+22:58:44.382 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+22:58:45.588 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+22:58:45.589 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+22:58:45.877 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+22:58:45.878 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-3
+
+
+22:58:45.878 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+22:58:47.071 [Thread-3] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Received wake word detected
+22:58:47.072 [Thread-3] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Wake Word Detected ......
+22:58:47.076 [Thread-19] INFO  com.amazon.alexa.avs.AVSApp - Wake Word was detected
+22:58:47.169 [Thread-19] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+22:58:47.246 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+22:58:47.247 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-5
+
+
+22:58:47.248 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+22:58:47.250 [Thread-19] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "4461765e-b422-47eb-b5d5-61b537faac60",
+      "dialogRequestId" : "915d3668-f3c8-42cc-b05d-7a68074b2ba0"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "IDLE"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+22:58:47.258 [RequestThread] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+22:58:47.260 [Thread-19] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+22:58:47.263 [Thread-19] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+22:58:50.894 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "StopCapture",
+      "messageId" : "d7df3886-e5aa-4798-8134-726f8e56478c"
+    },
+    "payload" : { }
+  }
+}
+22:58:51.030 [IndependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechRecognizer.StopCapture
+22:58:51.112 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+22:58:51.130 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+22:58:51.551 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+22:58:51.552 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-7
+content-type: multipart/related;boundary=ea2c61c9-a2dd-408b-9c73-fa851d98d097;start=metadata.1488524331489;type="application/json"
+
+
+22:58:51.572 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "Play",
+      "messageId" : "9e581fec-248a-4341-9def-d89ec657bcfd",
+      "dialogRequestId" : "915d3668-f3c8-42cc-b05d-7a68074b2ba0"
+    },
+    "payload" : {
+      "audioItem" : {
+        "audioItemId" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+        "stream" : {
+          "offsetInMilliseconds" : 0,
+          "expiryTime" : "1969-12-31T23:59:59+0000",
+          "metadataToken" : "16ODUNAwJJpiwZinG_ZMG2ikboqomSO949trXWBve34DoWVqZXXjTszXKXpZ45oHJ2xkk3Wka8DJJRSTbtNX1wiHS4TG8AIJFUMv6gdotd0PyuxcIMR8t5EUh9g1IkkkT__pGH3fgaFj8sqf0f9eiZj6SXmKjxKDeuXZPE454ueubIKO_Je10dJ4w3rDvBjOlX3AX3MDZCKKyfvhq2VKI8a1pJN__WsJtHG5yvfVQyzASBlcDZPU7X3CtIuPc1nZfvi0_EVDEqAecTRuNbZRFeBk0gniUh9nhCsVNLCX8T79NJUZLpOPByt1owGD4NnwmO8-fim5HjsXquQEZ0-yPJV7oI_lIbRVmgdRfPxe3TRyMF6JzErzIWW27Xe7LedtFuFhiWxYEDzhrtU6XNmKvHsFEVpUx5I8QiwkcxSuzrGgBgmFclImRqzjeCV28x2qvk-2t49JTNDCVH2PpPxxUL1ZPBCULlqPmB93kmger7psWShT15MSjRbMAlf1t5PxOJEV1ZlGDSEybHvDcCcMjg-VlQfqyMLSLTbc-0AFcnLW86G82OX877ACFqENgHXSrPAeUjB6rhklfSfuD6FnW8crKHfyS9J_I49zfdkVRBnq5fIG06gMKmCPzj0MpDy3jzzTW1_hJOcnmNlDHl2dbh5q0--Ljz8YSqcZCbDsLLnDL6NGCVsrMDAx",
+          "url" : "https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav",
+          "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}"
+        }
+      },
+      "playBehavior" : "REPLACE_ALL"
+    }
+  }
+}
+22:58:51.603 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: AudioPlayer.Play
+22:58:51.604 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Dispatching directive
+22:58:51.609 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - handleAudioPlayerDirective: Getting 40.wav
+22:58:51.610 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - URL: https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:58:51.610 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - StreamId: amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{"directedCustomerId":"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y","modelKey":"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03","obfuscatedCustomerId":"A12B8DZ8FO4X68","token":"0"}
+22:58:51.611 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Offset: 0
+22:58:51.620 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+22:58:51.621 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+22:58:51.627 [Thread-24] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+22:58:51.639 [Thread-24] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+22:58:51.640 [Thread-24] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+22:58:51.709 [Thread-23] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:58:51.710 [Thread-23] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Resetting AudioPlayerTimer
+22:58:51.737 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - newMedia: https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:58:52.694 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing: https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:58:52.695 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer -     length: 453
+22:58:52.696 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+22:58:52.772 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Resetting AudioPlayerTimer
+22:58:52.773 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackStarted
+22:58:52.773 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 0
+22:58:52.784 [pool-7-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackStarted",
+      "messageId" : "7e9d085a-e17b-49f0-b35a-fd674ab184c8"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 0
+    }
+  }
+}
+22:58:52.790 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+22:58:53.308 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Finished playing https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:58:53.314 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Stopping AudioPlayerTimer
+22:58:53.315 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackNearlyFinished
+22:58:53.316 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 453
+22:58:53.317 [pool-7-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackNearlyFinished",
+      "messageId" : "072948ca-32d6-4cda-a306-f4063701efd6"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 453
+    }
+  }
+}
+22:58:53.319 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackFinished
+22:58:53.319 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 453
+22:58:53.321 [pool-7-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackFinished",
+      "messageId" : "2dcdcb38-911c-4843-b218-b4d1bc1308e1"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 453
+    }
+  }
+}
+22:58:53.372 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+22:58:53.373 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-9
+
+
+22:58:53.373 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+22:58:53.764 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 500
+22:58:53.764 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-11
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+22:58:53.767 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "ca79673a-bd8c-4306-bb64-61490e4de867"
+  },
+  "payload" : {
+    "code" : "INTERNAL_SERVICE_EXCEPTION",
+    "description" : "Request could not be executed due to an internal service error."
+  }
+}
+22:58:53.781 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Request could not be executed due to an internal service error.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+22:58:54.307 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+22:58:54.307 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1273f4fffedbc797-00002f2a-0000c095-22285370699ca358-b9a90545-13
+
+
+22:58:54.308 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+23:55:53.648 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+23:55:53.649 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+23:55:54.294 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+23:55:54.294 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e98b2fffee4703f-000007f2-0000c32c-57e6bb2dbeb10e77-b0e199be-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+23:58:41.620 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "f14d67b8-8556-4720-bbc2-0d7ac65803f9"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 3590
+    }
+  }
+}
+23:58:41.875 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+23:58:41.876 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e98b2fffee4703f-000007f2-0000c32c-57e6bb2dbeb10e77-b0e199be-3
+
+
+23:58:41.877 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+23:58:45.359 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+23:58:45.486 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+23:58:45.487 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e98b2fffee4703f-000007f2-0000c32c-57e6bb2dbeb10e77-b0e199be-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+00:55:19.294 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+00:55:19.294 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+00:55:19.295 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+00:55:20.046 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+00:55:20.047 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a809cfffe007f8f-0000081f-0000cbba-078cc38c51db6742-c16c46db-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+00:58:41.617 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "59d233b9-4495-444d-b7b9-112aa39e19bd"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 7190
+    }
+  }
+}
+00:58:42.022 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+00:58:42.023 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a809cfffe007f8f-0000081f-0000cbba-078cc38c51db6742-c16c46db-3
+
+
+00:58:42.023 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+00:58:46.430 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+00:58:46.550 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+00:58:46.551 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a809cfffe007f8f-0000081f-0000cbba-078cc38c51db6742-c16c46db-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+01:54:56.056 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+01:54:56.057 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+01:54:56.057 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+01:54:56.650 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+01:54:56.653 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 12eacafffe32f84b-000076ac-0000cc93-94241fa74f91f25c-13ef01ee-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+01:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "8cf97e23-543c-40b9-8ebd-291f4af894c6"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 10790
+    }
+  }
+}
+01:58:41.860 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+01:58:41.866 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 12eacafffe32f84b-000076ac-0000cc93-94241fa74f91f25c-13ef01ee-3
+
+
+01:58:41.867 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+01:58:47.381 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+01:58:47.485 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+01:58:47.485 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 12eacafffe32f84b-000076ac-0000cc93-94241fa74f91f25c-13ef01ee-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+02:50:45.649 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+02:50:45.649 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+02:50:45.652 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+02:50:46.246 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+02:50:46.246 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e1d57fffeb8fd3b-000072c6-0000d1b7-d689f637250d16ca-b495c7f8-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+02:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "eb06d3a5-9bec-4210-9694-994c2697c446"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 14390
+    }
+  }
+}
+02:58:41.866 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+02:58:41.867 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e1d57fffeb8fd3b-000072c6-0000d1b7-d689f637250d16ca-b495c7f8-3
+
+
+02:58:41.868 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+02:58:48.402 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+02:58:48.521 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+02:58:48.522 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e1d57fffeb8fd3b-000072c6-0000d1b7-d689f637250d16ca-b495c7f8-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+03:48:12.259 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+03:48:12.257 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+03:48:12.260 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+03:48:12.797 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+03:48:12.798 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0eb82dfffe8806fa-00001473-0000d72a-e4ca2502771a91f7-e079a1b6-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+03:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "b38690fa-61c1-43ae-a6b0-2692a38608ed"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 17990
+    }
+  }
+}
+03:58:41.881 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+03:58:41.882 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0eb82dfffe8806fa-00001473-0000d72a-e4ca2502771a91f7-e079a1b6-3
+
+
+03:58:41.882 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+03:58:49.404 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+03:58:49.521 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+03:58:49.521 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0eb82dfffe8806fa-00001473-0000d72a-e4ca2502771a91f7-e079a1b6-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+04:45:32.804 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+04:45:32.805 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+04:45:32.807 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+04:45:33.355 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+04:45:33.356 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 068369fffed919a1-00000aef-0000e2a4-a140f38c05a23dab-d68b3dbd-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+04:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "ded3ef01-b48d-42d6-885e-3f023a3d093b"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 21590
+    }
+  }
+}
+04:58:41.862 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+04:58:41.863 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 068369fffed919a1-00000aef-0000e2a4-a140f38c05a23dab-d68b3dbd-3
+
+
+04:58:41.863 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+04:58:50.405 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+04:58:50.519 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+04:58:50.520 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 068369fffed919a1-00000aef-0000e2a4-a140f38c05a23dab-d68b3dbd-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+05:40:28.360 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+05:40:28.361 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+05:40:28.362 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+05:40:29.072 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+05:40:29.073 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1220c2fffe2cff44-00007cb1-0000e2c8-f8cc85bd57d24f99-f070c6a3-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+05:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "034e4be9-5424-402c-b104-081ac6fe71ed"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 25190
+    }
+  }
+}
+05:58:41.911 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+05:58:41.912 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1220c2fffe2cff44-00007cb1-0000e2c8-f8cc85bd57d24f99-f070c6a3-3
+
+
+05:58:41.913 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+05:58:51.412 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+05:58:51.524 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+05:58:51.525 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1220c2fffe2cff44-00007cb1-0000e2c8-f8cc85bd57d24f99-f070c6a3-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+06:40:04.302 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+06:40:04.304 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+06:40:04.305 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+06:40:04.921 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+06:40:04.922 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a10e3fffee2b14e-00000ee5-0000ea35-cc3633fc6df9cf85-e1822e48-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+06:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "0911588a-3341-4fa5-ace7-3c94482f993e"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 28790
+    }
+  }
+}
+06:58:41.899 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+06:58:41.900 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a10e3fffee2b14e-00000ee5-0000ea35-cc3633fc6df9cf85-e1822e48-3
+
+
+06:58:41.900 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+06:58:52.430 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+06:58:52.541 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+06:58:52.541 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a10e3fffee2b14e-00000ee5-0000ea35-cc3633fc6df9cf85-e1822e48-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+07:34:29.932 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+07:34:29.934 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+07:34:29.935 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+07:34:30.462 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+07:34:30.463 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1272a7fffec76d79-00003d7d-0000efb6-8f10bf38e0d8d3d0-d5f8c27c-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+07:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "672ac103-7921-43e2-8e1f-64d853b8af3b"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 32390
+    }
+  }
+}
+07:58:41.909 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+07:58:41.910 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1272a7fffec76d79-00003d7d-0000efb6-8f10bf38e0d8d3d0-d5f8c27c-3
+
+
+07:58:41.911 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+07:58:53.529 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+07:58:53.635 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+07:58:53.635 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1272a7fffec76d79-00003d7d-0000efb6-8f10bf38e0d8d3d0-d5f8c27c-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+08:31:11.463 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+08:31:11.466 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+08:31:11.467 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+08:31:12.012 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+08:31:12.012 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 065923fffef2fa41-000057e3-0000f84f-0062a67dc9d4cb13-d6485f8f-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+08:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "2b71039c-e9a0-485f-a34a-fd0442acb0ff"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 35990
+    }
+  }
+}
+08:58:41.911 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+08:58:41.912 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 065923fffef2fa41-000057e3-0000f84f-0062a67dc9d4cb13-d6485f8f-3
+
+
+08:58:41.913 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+08:58:54.536 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+08:58:54.641 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+08:58:54.642 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 065923fffef2fa41-000057e3-0000f84f-0062a67dc9d4cb13-d6485f8f-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+09:28:54.023 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+09:28:54.024 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+09:28:54.027 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+09:28:54.546 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+09:28:54.547 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 123a90fffe740e71-00006d52-0000f7c8-10d0a1bb8a2990ae-667f78ce-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+09:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "2c142da7-fe29-49bf-b0ff-5d4a9a5c30b7"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 39590
+    }
+  }
+}
+09:58:41.907 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+09:58:41.908 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 123a90fffe740e71-00006d52-0000f7c8-10d0a1bb8a2990ae-667f78ce-3
+
+
+09:58:41.908 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+09:58:55.537 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+09:58:55.645 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+09:58:55.646 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 123a90fffe740e71-00006d52-0000f7c8-10d0a1bb8a2990ae-667f78ce-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+10:20:02.558 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+10:20:02.565 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+10:20:02.565 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+10:20:03.080 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+10:20:03.081 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e9177fffe0c4be9-0000707f-0000fc26-e08aeb275d586325-8d00140b-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+10:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "02e46654-0875-42a0-9951-dc3a7864d06e"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 43190
+    }
+  }
+}
+10:58:41.897 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+10:58:41.898 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e9177fffe0c4be9-0000707f-0000fc26-e08aeb275d586325-8d00140b-3
+
+
+10:58:41.898 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+10:58:56.504 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+10:58:56.610 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+10:58:56.610 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e9177fffe0c4be9-0000707f-0000fc26-e08aeb275d586325-8d00140b-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+11:15:53.097 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+11:15:53.098 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+11:15:53.098 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+11:15:53.649 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+11:15:53.650 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0afd9bfffe12c06a-00006ed8-00010734-38543a60c0f54b43-9dbc3ad4-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+11:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "7d351946-9c52-47d4-afde-80447f8816ca"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 46790
+    }
+  }
+}
+11:58:41.882 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+11:58:41.883 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0afd9bfffe12c06a-00006ed8-00010734-38543a60c0f54b43-9dbc3ad4-3
+
+
+11:58:41.884 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+11:58:57.513 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+11:58:57.621 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+11:58:57.622 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0afd9bfffe12c06a-00006ed8-00010734-38543a60c0f54b43-9dbc3ad4-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+12:13:57.655 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+12:13:57.657 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+12:13:57.657 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+12:13:58.198 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+12:13:58.199 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a87d1fffe4e9933-000078e5-00010f54-cb2cd36b078fb6b6-3c22a2b6-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+12:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "61a80a3e-76ef-4c86-9e47-df8dbdebad04"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 50390
+    }
+  }
+}
+12:58:41.892 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+12:58:41.893 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a87d1fffe4e9933-000078e5-00010f54-cb2cd36b078fb6b6-3c22a2b6-3
+
+
+12:58:41.894 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+13:05:28.203 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+13:05:28.203 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+13:05:28.755 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+13:05:28.756 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e16a0fffe37b5c7-00007299-00010cce-e7abcbe74adcef3b-9020b837-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+13:05:28.760 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "642482f6-fa46-4cc2-bb01-888fae839655"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+13:05:28.767 [DownchannelRequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$DownchannelRequestThread.openConnection(AVSClient.java:535) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$DownchannelRequestThread.run(AVSClient.java:499) [classes/:?]
+13:05:28.771 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+13:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "36e33a31-0f96-4138-9a07-7654d2392257"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 53990
+    }
+  }
+}
+13:58:42.140 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+13:58:42.140 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e41d4fffee09fe0-0000645c-00011296-3c9ceea39885a595-98eff69c-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+13:58:42.142 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "79915d34-17f3-4d3e-9354-8aa3749bb19d"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+13:58:42.144 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+14:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "4f249756-d718-4640-b241-8c2f8f081f50"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 57590
+    }
+  }
+}
+14:58:42.123 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+14:58:42.124 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e96dbfffe8fa36f-000037a2-000118bd-823961c5aeb487ef-40015db7-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+14:58:42.125 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "0da54ea9-130e-4b8b-96e0-d6a3833344f4"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+14:58:42.127 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+15:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "8f025da2-813e-49e4-9150-ad14fb71d848"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 61190
+    }
+  }
+}
+15:58:42.140 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+15:58:42.140 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e8aaffffee24de5-000007ca-00011d74-8b7b4017e0ed7691-5f6cab03-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+15:58:42.144 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "5a062704-f82f-4f6c-980c-10f537597e6d"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+15:58:42.145 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+16:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "d566a4af-b276-49ec-9061-a15f5b7a47fa"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 64790
+    }
+  }
+}
+16:58:42.129 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+16:58:42.129 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 129bd5fffecbd02b-000014f9-000129af-d21b268941b264f1-07743b2e-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+16:58:42.132 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "6b529352-9de6-457b-ba13-2f22d4626de5"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+16:58:42.134 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+17:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "da2e5808-f308-4891-abc5-fd4d645c1ac8"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 68390
+    }
+  }
+}
+17:58:42.133 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+17:58:42.134 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 1268eefffef681e7-00004403-00012d11-574526044fa35b6c-94f25617-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+17:58:42.136 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "fb73ce4c-3dd7-41fe-a56e-50af63155ea3"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+17:58:42.138 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+18:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "fa94cc39-c63d-4006-9cac-114edb27f3c8"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 71990
+    }
+  }
+}
+18:58:42.118 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+18:58:42.118 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a0ddefffec15503-000048ec-000136c2-0bc25c90edf049f3-12a48c7e-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+18:58:42.120 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "eaf70f68-c04c-4ef3-964e-e0cdfdba701a"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+18:58:42.122 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+19:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "012fd501-c630-4872-9864-e0854488a6bb"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 75590
+    }
+  }
+}
+19:58:42.135 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+19:58:42.135 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 122a58fffe2a7e3f-00003a00-00013785-7ef3b9f289e28090-cb84054f-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+19:58:42.138 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "5492e458-a667-4d53-a828-b036a5b532c1"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+19:58:42.140 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "4f844ead-3ea3-4c2b-862e-faaa02916224"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 79190
+    }
+  }
+}
+20:58:42.125 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:58:42.125 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a4b59fffefbb32b-000050ef-000142c3-9e602ab752d62ef9-a9f1b309-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:58:42.132 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "a2286751-708b-48e6-9ed2-d35121bd8aad"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:58:42.135 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+21:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "660255a7-afe4-4086-9da2-7df1136640fc"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 82790
+    }
+  }
+}
+21:58:42.132 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+21:58:42.132 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 121aaefffea67199-00005df6-00014611-eeeda4bbbd0f1d8d-3e919b64-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+21:58:42.134 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "ff19869e-f92d-4ac8-99a1-a21d788510ff"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+21:58:42.136 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+22:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "3dda22e8-f27e-44a7-9213-35d93ed47d7a"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 86390
+    }
+  }
+}
+22:58:42.129 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+22:58:42.129 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 061065fffe6be4a9-00004dfd-00014fb4-c486bf1406b80c02-b58e12f1-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+22:58:42.132 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "cf2a2f4d-9acc-4497-a429-4c9835ff8dc8"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+22:58:42.134 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+23:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "ce2f5b5f-3a60-46bb-8ac3-676afed9e18f"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 89990
+    }
+  }
+}
+23:58:42.337 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+23:58:42.338 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 061065fffe6be4a9-00004dfd-00015502-16cb4c6f6546e321-95f49df9-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+23:58:42.342 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "8e784f3a-f682-4078-bf08-82bd1387a60c"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+23:58:42.343 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+00:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "4a79b884-5505-4ed9-8564-4e4dc74dcdd0"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 93590
+    }
+  }
+}
+00:58:42.137 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+00:58:42.137 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e9177fffe0c4be9-0000707f-000150e1-99eaa360f8bfd10b-795d3624-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+00:58:42.139 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "3035bc8b-ad51-4da1-bb6a-47c45d30be9c"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+00:58:42.145 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+01:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "d92e3e6b-29ea-4c62-8228-ab8062608c39"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 97190
+    }
+  }
+}
+01:58:42.120 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+01:58:42.120 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06110bfffe9f3a61-0000272c-00015b21-1cf7ea7d5c6b4774-309bf7dd-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+01:58:42.122 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "bd710e16-ee15-40df-8942-a8ee456bb71b"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+01:58:42.124 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+02:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "0c8434c0-92ab-4471-9e7c-910de7572ac6"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 100790
+    }
+  }
+}
+02:58:42.298 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+02:58:42.299 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e18e4fffe2eef9d-00004a73-00015a05-d0148eee16b5b6a0-14017f6e-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+02:58:42.301 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "e70f5bdc-7627-4b23-bd16-0dbb9cefbd05"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+02:58:42.305 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+03:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "8cd2287f-5b74-4757-996b-927f86a9bbc4"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 104390
+    }
+  }
+}
+03:58:42.234 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+03:58:42.235 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 060134fffe603e73-00006646-000169fd-219934f80a82a4d3-8d284f57-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+03:58:42.237 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "f4d30b95-a3df-4b7b-b2e4-36e42d2fe6b1"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+03:58:42.238 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+04:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "ecc3ff30-56f2-4527-8bfe-4586c8a7a55e"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 107990
+    }
+  }
+}
+04:58:42.123 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+04:58:42.128 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e366efffedb8de2-000005a9-0001675e-52435c386c6852f6-1322ad1b-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+04:58:42.130 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "698d318a-184b-4684-ac20-97dc99c5d37c"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+04:58:42.131 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+05:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "8f27622d-7e0c-4170-952d-8dd333475230"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 111590
+    }
+  }
+}
+05:58:42.289 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+05:58:42.290 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a4b59fffefbb32b-000050ef-00017289-113db14441a08a1c-956dc33c-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+05:58:42.292 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "106f601a-e5c7-4058-bfa6-a327c09ee24d"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+05:58:42.293 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+06:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "67104152-e5c1-4d83-8c59-e6335ae26323"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 115190
+    }
+  }
+}
+06:58:42.144 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+06:58:42.145 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0eefb6fffe954503-00003043-0000047f-b648ba416c297807-8e4ca9ee-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+06:58:42.147 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "81870b03-42ef-4fcd-8538-1fc2945d3d0b"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+06:58:42.148 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+07:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "59785a6c-8e17-4e3f-a527-d92ab4ff9871"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 118790
+    }
+  }
+}
+07:58:42.301 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+07:58:42.302 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a8103fffeab2cd2-00007746-00017e58-a27404877fd5a718-d0302197-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+07:58:42.303 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "25b87f81-31b2-4f91-a6e1-e40fcbc90486"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+07:58:42.305 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+08:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "c63560d1-1d6b-495e-b326-c7b760def1ed"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 122390
+    }
+  }
+}
+08:58:42.120 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+08:58:42.121 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0627cffffe4bec53-0000362f-00018569-4c867680289f5cfc-434a0b9a-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+08:58:42.123 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "bdd1dfb4-6370-467f-b24b-35935225a810"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+08:58:42.126 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+09:30:18.592 [Thread-3] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Received wake word detected
+09:30:18.593 [Thread-3] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Wake Word Detected ......
+09:30:18.595 [Thread-69] INFO  com.amazon.alexa.avs.AVSApp - Wake Word was detected
+09:30:18.668 [Thread-69] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+09:30:18.672 [Thread-69] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 453
+09:30:18.717 [Thread-69] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "e64481c6-8c80-4099-8c1f-56b3f7a08b6a",
+      "dialogRequestId" : "ccbfbb35-9876-4702-836e-71a2963796fe"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 453,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+09:30:18.722 [Thread-69] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+09:30:18.724 [Thread-69] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+09:30:19.094 [HttpClient@17637645-20] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+09:30:19.197 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+09:30:19.198 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 065923fffef2fa41-000057e3-000188c4-56b8a9200ae24f79-88f1fa3f-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+09:30:19.201 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "e0914331-57a8-402a-bc76-845e969c96fc"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+09:30:19.202 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+09:30:19.205 [RequestThread] ERROR com.amazon.alexa.avs.AVSApp - An error occured creating speech request
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+09:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "93106128-3f5b-45c0-871f-3207d751c58d"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 1703
+    }
+  }
+}
+10:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "113bbbf7-babb-4f89-83c2-75c8da92334d"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 5303
+    }
+  }
+}
+11:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "051cfd1e-0181-4180-a73b-d8c2a08dab73"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 8903
+    }
+  }
+}
+12:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "b2c8eb26-74a8-490f-8cad-0a91accc7c62"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 12503
+    }
+  }
+}
+13:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "bfcc895f-4f0b-4bd7-b1c5-dfaa33aaa662"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 16103
+    }
+  }
+}
+14:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "7d37d302-2444-44b5-85f0-db188613717b"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 19703
+    }
+  }
+}
+15:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "502f107a-2e48-42c7-9591-dff6d4105915"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 23303
+    }
+  }
+}
+16:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "a013007d-78b8-411d-8dfd-397c276e5b8a"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 26903
+    }
+  }
+}
+17:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "5ff11397-271c-4275-99f8-905f8fbc3ecc"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 30503
+    }
+  }
+}
+18:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "c9a3966a-8799-4f64-bdfd-6cd95e8d0408"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 34103
+    }
+  }
+}
+19:58:41.616 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "cc04a46a-5324-490f-9326-b4ce032e5a2d"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 37703
+    }
+  }
+}
+20:51:42.570 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+20:51:42.574 [RequestThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+20:51:42.578 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+20:51:42.579 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:51:42.579 [Thread-72] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:51:42.579 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+20:51:42.580 [Thread-72] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:51:42.580 [Thread-72] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:51:42.580 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:51:42.584 [Thread-73] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:51:42.585 [Thread-73] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:51:42.585 [Thread-73] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:51:43.152 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:43.152 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e16a0fffe37b5c7-00007299-0001c594-beb8b5e31c781663-d2364366-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:43.155 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "18c214bc-d50a-4d98-94ec-c03740fce253"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:43.156 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:43.642 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:43.643 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e5a6ffffe9fa225-00006e5f-0001c7c7-f61afe25f3f81044-3c84538c-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:43.646 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "4c3103be-f2ea-4f5c-acff-d457664a9b4a"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:43.647 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:44.118 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:44.119 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e77a7fffe5c0f13-00006674-0001c66a-0137852483f8122f-d7bf8202-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:44.121 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "5f8a5f41-e61f-4d44-bf25-e51e2e9755b8"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:44.123 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:44.580 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:44.580 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0ed21ffffef23a7d-00000c09-0001c89d-00cb1ebb33f82c03-4c714d66-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:44.584 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "43c6fe3e-a6fb-40bf-b502-996e937b919d"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:44.585 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:44.591 [RequestThread] WARN  com.amazon.alexa.avs.http.AbstractRetryPolicy - Error occured while making call. This call will retry.
+com.amazon.alexa.avs.http.AVSClient$RequestException: java.util.concurrent.ExecutionException: java.nio.channels.AsynchronousCloseException
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:280) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+Caused by: java.util.concurrent.ExecutionException: java.nio.channels.AsynchronousCloseException
+	at com.amazon.alexa.avs.http.jetty.InputStreamResponseListener.get(InputStreamResponseListener.java:251) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:275) ~[classes/:?]
+	... 7 more
+Caused by: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.jetty.http2.client.http.HttpConnectionOverHTTP2.close(HttpConnectionOverHTTP2.java:76) ~[http2-http-client-transport-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.client.http.HttpClientTransportOverHTTP2$SessionListenerPromise.onClose(HttpClientTransportOverHTTP2.java:184) ~[http2-http-client-transport-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session.notifyClose(HTTP2Session.java:996) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session$2.succeeded(HTTP2Session.java:377) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session$ControlEntry.succeeded(HTTP2Session.java:1151) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Flusher.succeeded(HTTP2Flusher.java:274) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:332) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Flusher.process(HTTP2Flusher.java:253) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session.frame(HTTP2Session.java:622) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session.frames(HTTP2Session.java:597) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session.control(HTTP2Session.java:583) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Session.onGoAway(HTTP2Session.java:372) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.parser.BodyParser.notifyGoAway(BodyParser.java:187) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.parser.GoAwayBodyParser.onGoAway(GoAwayBodyParser.java:169) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.parser.GoAwayBodyParser.parse(GoAwayBodyParser.java:108) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.parser.Parser.parseBody(Parser.java:182) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.parser.Parser.parse(Parser.java:110) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Connection$HTTP2Producer.produce(HTTP2Connection.java:166) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:162) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.execute(ExecuteProduceConsume.java:101) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Connection.onFillable(HTTP2Connection.java:97) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection.onFillable(SslConnection.java:197) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_121]
+20:51:45.742 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:45.742 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0eefb6fffe954503-00003043-000059b0-4b1be6bc38782ddd-6afb6bcd-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:45.745 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "46622234-42ae-4ea2-8266-fe57cfe48f94"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:45.747 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:46.274 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:46.275 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e66e1fffe08ca29-00006c63-0001c477-d37f3f096bf82a62-60c91a91-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:46.280 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "143dafc9-8cdc-4f19-adf0-2e59b7ca61f0"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:46.285 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:46.794 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:46.795 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0ea5fefffe9e75f5-000014e6-0001c74b-ce08ee6264782477-0afca037-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:46.799 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "e97316e6-3562-4d6d-8793-0f2aca440f2a"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:46.801 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:47.286 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:47.286 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0eebeffffea248f0-00006369-0001c592-69b4c86c88b6ee7f-4d3482e4-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:47.288 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "96846955-a36a-4cd4-ad94-d6239679fdcc"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:47.291 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:47.738 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:47.745 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e77a7fffe5c0f13-00006674-0001c66d-515a023003f82061-0121245d-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:47.747 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "8c328b1c-b817-4900-ad7f-a7094b09544e"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:47.748 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:48.216 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:48.216 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e124bfffe47bedd-00006a17-0001c41b-55b07fd31878222a-8cd454df-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:48.220 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "91c24c08-3b0c-4159-b67a-36e8383d73f9"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:48.221 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:51:48.675 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:51:48.676 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0e6c09fffe144703-00003877-0001c441-474323e7d3f83c01-7fc8ff09-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:51:48.678 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "aa00ff3e-8e9c-4dae-8e6e-d38f6d80e567"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:51:48.680 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:52:17.554 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+20:52:17.555 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 453
+20:52:17.573 [AWT-EventQueue-0] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "34e27b52-16ba-44b7-8155-168918391881",
+      "dialogRequestId" : "ee722028-34fd-4b61-ab79-514884c01104"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 453,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+20:52:17.576 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+20:52:17.576 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+20:52:18.108 [HttpClient@17637645-19] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+20:52:18.214 [RequestThread] WARN  com.amazon.alexa.avs.http.AbstractRetryPolicy - Error occured while making call. This call will retry.
+com.amazon.alexa.avs.http.AVSClient$RequestException: java.util.concurrent.ExecutionException: org.eclipse.jetty.io.EofException
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:280) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.jetty.io.EofException
+	at com.amazon.alexa.avs.http.jetty.InputStreamResponseListener.get(InputStreamResponseListener.java:251) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:275) ~[classes/:?]
+	... 7 more
+Caused by: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint.flush(SslConnection.java:825) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Flusher.process(HTTP2Flusher.java:253) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.IteratingCallback.succeeded(IteratingCallback.java:365) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Flusher.succeeded(HTTP2Flusher.java:277) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher$PendingState.complete(WriteFlusher.java:269) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.completeWrite(WriteFlusher.java:394) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection$1.run(SslConnection.java:96) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint$1.succeeded(SslConnection.java:287) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher$PendingState.complete(WriteFlusher.java:269) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.completeWrite(WriteFlusher.java:394) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$3.run(SelectChannelEndPoint.java:89) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_121]
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[?:1.8.0_121]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[?:1.8.0_121]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:51) ~[?:1.8.0_121]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[?:1.8.0_121]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:175) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint.flush(SslConnection.java:825) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Flusher.process(HTTP2Flusher.java:253) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.IteratingCallback.succeeded(IteratingCallback.java:365) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.http2.HTTP2Flusher.succeeded(HTTP2Flusher.java:277) ~[http2-common-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher$PendingState.complete(WriteFlusher.java:269) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.completeWrite(WriteFlusher.java:394) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection$1.run(SslConnection.java:96) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint$1.succeeded(SslConnection.java:287) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher$PendingState.complete(WriteFlusher.java:269) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.WriteFlusher.completeWrite(WriteFlusher.java:394) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$3.run(SelectChannelEndPoint.java:89) ~[jetty-io-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) ~[jetty-util-9.3.7.v20160115.jar:9.3.7.v20160115]
+	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_121]
+20:52:19.578 [HttpClient@17637645-17] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Using cached iterator
+20:52:19.683 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 403
+20:52:19.688 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a5934fffe50c755-00007517-0001d18f-b44bab5a67f8a52d-191ff8c6-1
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+20:52:19.690 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "f4f7de2c-0bbd-4331-bfa4-da1682db1d22"
+  },
+  "payload" : {
+    "code" : "UNAUTHORIZED_REQUEST_EXCEPTION",
+    "description" : "Unable to authenticate the request. Please provide a valid authorization token."
+  }
+}
+20:52:19.691 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:52:19.693 [RequestThread] ERROR com.amazon.alexa.avs.AVSApp - An error occured creating speech request
+com.amazon.alexa.avs.exception.AlexaSystemException: Unable to authenticate the request. Please provide a valid authorization token.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+20:52:21.448 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+20:52:21.450 [RequestThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+20:52:21.459 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+20:52:21.460 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:52:21.461 [Thread-77] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:52:21.461 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+20:52:21.462 [Thread-77] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:52:21.462 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:52:21.462 [Thread-77] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:52:21.464 [Thread-78] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:52:21.465 [Thread-78] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:52:21.465 [Thread-78] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:52:29.158 [Thread-13] INFO  com.amazon.alexa.avs.http.AVSClient - HttpClient stopping
+20:52:29.160 [Thread-13] INFO  com.amazon.alexa.avs.http.AVSClient - [java.lang.Thread.getStackTrace(Thread.java:1556), com.amazon.alexa.avs.http.AVSClient$1.lifeCycleStopping(AVSClient.java:192), org.eclipse.jetty.util.component.AbstractLifeCycle.setStopping(AbstractLifeCycle.java:197), org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:88), com.amazon.alexa.avs.http.AVSClient.shutdown(AVSClient.java:476), com.amazon.alexa.avs.AVSController$2.run(AVSController.java:178)]
+20:52:45.456 [main] INFO  com.amazon.alexa.avs.AVSController - Creating Wake Word IPC | port number: 5123
+20:52:45.520 [Thread-1] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - New IPC client was accepted, current of current clients is 1
+20:52:46.476 [main] INFO  com.amazon.alexa.avs.AVSController - Created Wake Word IPC ok.
+20:52:46.489 [main] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+20:52:46.649 [main] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+20:52:48.106 [main] INFO  com.amazon.alexa.avs.http.AVSClient - HttpClient starting
+20:52:48.968 [main] INFO  com.amazon.alexa.avs.http.AVSClient - HttpClient started
+20:52:49.954 [main] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "Settings",
+      "name" : "SettingsUpdated",
+      "messageId" : "07cada15-1b0e-428b-8b5a-69b0a0622aaa"
+    },
+    "payload" : {
+      "settings" : [ {
+        "key" : "locale",
+        "value" : "en-US"
+      } ]
+    }
+  }
+}
+20:52:50.043 [pool-6-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "SynchronizeState",
+      "messageId" : "64db7bda-8578-49ba-98c8-2968be0f0c9e"
+    },
+    "payload" : { }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "IDLE"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+20:52:51.842 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+20:52:53.004 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+20:52:53.005 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+20:52:53.316 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:52:53.317 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-3
+
+
+20:52:53.317 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:52:53.623 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:52:53.623 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-5
+
+
+20:52:53.623 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:02.254 [Thread-2] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Received wake word detected
+20:53:02.255 [Thread-2] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Wake Word Detected ......
+20:53:02.258 [Thread-19] INFO  com.amazon.alexa.avs.AVSApp - Wake Word was detected
+20:53:02.359 [Thread-19] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+20:53:02.445 [Thread-19] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "ca6e6690-9d4f-415b-bac5-46ff956cb4b0",
+      "dialogRequestId" : "68703f72-1ca4-45d6-bda0-3c72e33f5c69"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "IDLE"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+20:53:02.452 [Thread-19] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+20:53:02.453 [Thread-19] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+20:53:02.453 [RequestThread] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+20:53:06.685 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "StopCapture",
+      "messageId" : "b797cbfd-b724-4bc7-a0fe-e4b77ee6037b"
+    },
+    "payload" : { }
+  }
+}
+20:53:06.785 [IndependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechRecognizer.StopCapture
+20:53:06.869 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+20:53:06.877 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+20:53:07.448 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+20:53:07.455 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-7
+content-type: multipart/related;boundary=a6db6489-ce52-4cbd-bd7a-bfa3d9005ce7;start=metadata.1488689587310;type="application/json"
+
+
+20:53:07.464 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "Speak",
+      "messageId" : "dd6d9206-e2bc-406e-bd52-a99fe13a49b1",
+      "dialogRequestId" : "68703f72-1ca4-45d6-bda0-3c72e33f5c69"
+    },
+    "payload" : {
+      "url" : "cid:DeviceTTSRenderer_05774105-6880-4316-8160-0ab0b0a9d542_2144462129",
+      "format" : "AUDIO_MPEG",
+      "token" : "amzn1.as-ct.v1.Domain:Application:Notifications#ACRI#DeviceTTSRenderer_05774105-6880-4316-8160-0ab0b0a9d542"
+    }
+  }
+}
+20:53:07.488 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechSynthesizer.Speak
+20:53:07.489 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Dispatching directive
+20:53:07.495 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Alexa speech started
+20:53:07.498 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+20:53:07.498 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:53:07.506 [Thread-23] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:53:07.520 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechStarted",
+      "messageId" : "1f9e9314-e96b-4580-9a97-263ab2b6a65e"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Notifications#ACRI#DeviceTTSRenderer_05774105-6880-4316-8160-0ab0b0a9d542"
+    }
+  }
+}
+20:53:07.801 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:07.801 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-9
+
+
+20:53:07.801 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:09.572 [Thread-24] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechFinished",
+      "messageId" : "556c70a8-3fc3-4e5f-8e50-5660d8d792c0"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Notifications#ACRI#DeviceTTSRenderer_05774105-6880-4316-8160-0ab0b0a9d542"
+    }
+  }
+}
+20:53:09.574 [Thread-24] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Alexa speech finished
+20:53:09.577 [Thread-23] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:53:09.578 [Thread-23] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:53:09.580 [Thread-24] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:53:09.824 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:09.824 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-11
+
+
+20:53:09.825 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:12.574 [Thread-2] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Received wake word detected
+20:53:12.575 [Thread-2] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Wake Word Detected ......
+20:53:12.581 [Thread-26] INFO  com.amazon.alexa.avs.AVSApp - Wake Word was detected
+20:53:12.664 [Thread-26] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+20:53:12.684 [Thread-26] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "fd886798-0a7d-487b-9869-026b8b79561e",
+      "dialogRequestId" : "0cef2257-1fe0-4b5d-b063-b0a5f1bcb4ef"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "IDLE"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Notifications#ACRI#DeviceTTSRenderer_05774105-6880-4316-8160-0ab0b0a9d542",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+20:53:12.688 [Thread-26] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+20:53:12.689 [Thread-26] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+20:53:12.715 [RequestThread] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+20:53:16.782 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "StopCapture",
+      "messageId" : "72a5f722-baa9-4810-ae8d-672e995b69ee"
+    },
+    "payload" : { }
+  }
+}
+20:53:16.786 [IndependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechRecognizer.StopCapture
+20:53:16.860 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+20:53:16.862 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+20:53:18.306 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+20:53:18.307 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-13
+content-type: multipart/related;boundary=4a2d0b07-5ff0-46f5-b967-0cd0b06be250;start=metadata.1488689598239;type="application/json"
+
+
+20:53:18.412 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "Speak",
+      "messageId" : "7ab26928-092d-42f4-b7ea-d972ce3a235f",
+      "dialogRequestId" : "0cef2257-1fe0-4b5d-b063-b0a5f1bcb4ef"
+    },
+    "payload" : {
+      "url" : "cid:DeviceTTSRendererV4_2e44735f-e0a1-4a66-8418-6d914f9b175d_1009095270",
+      "format" : "AUDIO_MPEG",
+      "token" : "amzn1.as-ct.v1.Domain:Application:Music#ACRI#DeviceTTSRendererV4_2e44735f-e0a1-4a66-8418-6d914f9b175d"
+    }
+  }
+}
+20:53:18.423 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "Play",
+      "messageId" : "02514b4e-3c41-4b96-9581-cbf37b889044",
+      "dialogRequestId" : "0cef2257-1fe0-4b5d-b063-b0a5f1bcb4ef"
+    },
+    "payload" : {
+      "audioItem" : {
+        "audioItemId" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1",
+        "stream" : {
+          "offsetInMilliseconds" : 0,
+          "expiryTime" : "2017-03-05T04:54:18+0000",
+          "progressReport" : {
+            "progressReportIntervalInMilliseconds" : 900000
+          },
+          "metadataToken" : "lxVnsuiDktS5FqGAzpcZnlum2K_mLj9lcTdsgUHqvpkts5JSfaJbV-stHEmYtyaQ4BC8N9eVFA_TcNXc9zQztmUNKkv2A5IvyBDmE4jSXiTaDGE_2bJ3wLXbYj9EwrJRV_bb2hEXLDcLNfVFRYrzzzvLwRYbge0_7Cg4MiGJsdssucACSODefnjoNn6_Uk8BfXv5t2bGBNPGspgKVv0g8BsgGSSLgqjD9-lDBPt5EE_69H6MMKs0MDAx",
+          "url" : "https://opml.radiotime.com/Tune.ashx?serial=AESB3DD6ZBFPDFALLXXFE77X5RWA&formats=aac,mp3&id=s44526&partnerId=4JqugguZ",
+          "token" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1"
+        }
+      },
+      "playBehavior" : "REPLACE_ALL"
+    }
+  }
+}
+20:53:18.452 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechSynthesizer.Speak
+20:53:18.453 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Dispatching directive
+20:53:18.453 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Alexa speech started
+20:53:18.454 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechStarted",
+      "messageId" : "26b0acdb-e967-4a93-a356-22f440f82167"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Music#ACRI#DeviceTTSRendererV4_2e44735f-e0a1-4a66-8418-6d914f9b175d"
+    }
+  }
+}
+20:53:18.457 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 1
+20:53:18.458 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:53:18.459 [Thread-32] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:53:18.706 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:18.707 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-15
+
+
+20:53:18.707 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:20.698 [Thread-30] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechFinished",
+      "messageId" : "094a15c1-f3e2-44dc-9377-4ab34286c5a5"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Music#ACRI#DeviceTTSRendererV4_2e44735f-e0a1-4a66-8418-6d914f9b175d"
+    }
+  }
+}
+20:53:20.701 [Thread-30] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Alexa speech finished
+20:53:20.701 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: AudioPlayer.Play
+20:53:20.702 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Dispatching directive
+20:53:20.703 [Thread-32] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:53:20.704 [Thread-32] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:53:20.707 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - URL: https://opml.radiotime.com/Tune.ashx?serial=AESB3DD6ZBFPDFALLXXFE77X5RWA&formats=aac,mp3&id=s44526&partnerId=4JqugguZ
+20:53:20.708 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - StreamId: amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1
+20:53:20.708 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Offset: 0
+20:53:20.796 [Thread-33] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing https://opml.radiotime.com/Tune.ashx?serial=AESB3DD6ZBFPDFALLXXFE77X5RWA&formats=aac,mp3&id=s44526&partnerId=4JqugguZ
+20:53:20.797 [Thread-33] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Resetting AudioPlayerTimer
+20:53:20.831 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - newMedia: https://opml.radiotime.com/Tune.ashx?serial=AESB3DD6ZBFPDFALLXXFE77X5RWA&formats=aac,mp3&id=s44526&partnerId=4JqugguZ
+20:53:20.964 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:20.965 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-17
+
+
+20:53:20.965 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:21.490 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing: https://opml.radiotime.com/Tune.ashx?serial=AESB3DD6ZBFPDFALLXXFE77X5RWA&formats=aac,mp3&id=s44526&partnerId=4JqugguZ
+20:53:21.491 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer -     length: 0
+20:53:21.492 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+20:53:21.530 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Finished playing https://opml.radiotime.com/Tune.ashx?serial=AESB3DD6ZBFPDFALLXXFE77X5RWA&formats=aac,mp3&id=s44526&partnerId=4JqugguZ
+20:53:21.539 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Playing http://in.icy1.abacast.com/kplu-newsjazzaac-64.m3u
+20:53:21.564 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - newMedia: http://in.icy1.abacast.com/kplu-newsjazzaac-64.m3u
+20:53:21.865 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing: http://in.icy1.abacast.com/kplu-newsjazzaac-64.m3u
+20:53:21.866 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer -     length: 0
+20:53:21.866 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+20:53:21.886 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Finished playing http://in.icy1.abacast.com/kplu-newsjazzaac-64.m3u
+20:53:21.887 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Playing http://in.icy1.abacast.com/kplu-newsjazzmp3-32.m3u
+20:53:21.910 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - newMedia: http://in.icy1.abacast.com/kplu-newsjazzmp3-32.m3u
+20:53:22.194 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing: http://in.icy1.abacast.com/kplu-newsjazzmp3-32.m3u
+20:53:22.195 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer -     length: 0
+20:53:22.196 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+20:53:22.217 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Finished playing http://in.icy1.abacast.com/kplu-newsjazzmp3-32.m3u
+20:53:22.219 [pool-7-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Playing http://icy1.abacast.com:80/kplu-newsjazzmp3-32
+20:53:22.238 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - newMedia: http://icy1.abacast.com:80/kplu-newsjazzmp3-32
+20:53:22.579 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing: http://icy1.abacast.com:80/kplu-newsjazzmp3-32
+20:53:22.580 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer -     length: 0
+20:53:22.580 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+20:53:22.691 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Resetting AudioPlayerTimer
+20:53:22.691 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackStarted
+20:53:22.692 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 0
+20:53:22.706 [pool-7-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackStarted",
+      "messageId" : "d9f27fed-529a-4338-8949-5ebbc1e52214"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1",
+      "offsetInMilliseconds" : 0
+    }
+  }
+}
+20:53:22.708 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+20:53:22.709 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 0
+20:53:22.709 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerProgressReporter - Scheduling ProgressReportIntervalElapsed event in 900000 ms that will repeat every 900000 ms
+20:53:23.118 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:23.119 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-19
+
+
+20:53:23.119 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:32.760 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+20:53:32.764 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 10055
+20:53:32.784 [AWT-EventQueue-0] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "2112c67f-a25b-4c43-8a92-315907dc076a",
+      "dialogRequestId" : "ab2eb587-2c09-4a42-9fa8-16be87022bbf"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1",
+      "offsetInMilliseconds" : 10055,
+      "playerActivity" : "PLAYING"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Music#ACRI#DeviceTTSRendererV4_2e44735f-e0a1-4a66-8418-6d914f9b175d",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+20:53:32.789 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+20:53:32.791 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+20:53:32.793 [AWT-EventQueue-0] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - AudioPlayer content interrupted
+20:53:32.793 [RequestThread] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+20:53:32.842 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - paused: http://icy1.abacast.com:80/kplu-newsjazzmp3-32
+20:53:32.843 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Stopping AudioPlayerTimer
+20:53:32.844 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackPaused
+20:53:32.846 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 10135
+20:53:32.849 [pool-7-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackPaused",
+      "messageId" : "8ee8125b-9380-4c09-9dda-217ac6bdf9f1"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1",
+      "offsetInMilliseconds" : 10135
+    }
+  }
+}
+20:53:35.934 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "StopCapture",
+      "messageId" : "527940ab-4b91-4f29-a97e-cd1a715da5c5"
+    },
+    "payload" : { }
+  }
+}
+20:53:35.938 [IndependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechRecognizer.StopCapture
+20:53:36.019 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+20:53:36.023 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+20:53:36.423 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+20:53:36.424 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-21
+content-type: multipart/related;boundary=edc0675b-2a70-4b1e-bcff-7c33cc0f7339;start=metadata.1488689616358;type="application/json"
+
+
+20:53:36.427 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "Stop",
+      "messageId" : "bc975d80-e9ce-4951-b01f-de6fc6a37395",
+      "dialogRequestId" : "ab2eb587-2c09-4a42-9fa8-16be87022bbf"
+    },
+    "payload" : { }
+  }
+}
+20:53:36.432 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: AudioPlayer.Stop
+20:53:36.432 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Dispatching directive
+20:53:36.433 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Stopping AudioPlayerTimer
+20:53:36.434 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+20:53:36.435 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+20:53:36.436 [Thread-190] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+20:53:36.436 [Thread-190] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+20:53:36.443 [Thread-190] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+20:53:36.445 [pool-7-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - stopped: http://icy1.abacast.com:80/kplu-newsjazzmp3-32
+20:53:36.451 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackStopped
+20:53:36.452 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 10135
+20:53:36.453 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackStopped",
+      "messageId" : "3ba92131-fd3d-4ca9-9b3e-fcdf8389b578"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1",
+      "offsetInMilliseconds" : 10135
+    }
+  }
+}
+20:53:36.543 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:36.544 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-23
+
+
+20:53:36.544 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+20:53:36.994 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+20:53:36.995 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 0a27d5fffeba9e8b-00002ee6-0001d121-47eb3cee68672544-dff58b77-25
+
+
+20:53:36.995 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+21:51:01.032 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Finishing downchannel
+21:51:01.033 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+21:51:01.566 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+21:51:01.567 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-1
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+21:52:49.015 [pool-2-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "System",
+      "name" : "UserInactivityReport",
+      "messageId" : "2ad0afcf-348b-416b-9bcd-4145d4280bd5"
+    },
+    "payload" : {
+      "inactiveTimeInSeconds" : 3553
+    }
+  }
+}
+21:52:49.266 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+21:52:49.267 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-3
+
+
+21:52:49.267 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+21:52:52.820 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Establishing downchannel
+21:52:52.930 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+21:52:52.930 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-5
+content-type: multipart/related; boundary=------abcde123; type=application/json
+
+
+22:14:13.001 [Thread-2] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Received wake word detected
+22:14:13.002 [Thread-2] INFO  com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Wake Word Detected ......
+22:14:13.003 [Thread-192] INFO  com.amazon.alexa.avs.AVSApp - Wake Word was detected
+22:14:13.078 [Thread-192] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_PAUSE_WAKE_WORD_ENGINE to all connected clients
+22:14:13.080 [Thread-192] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 10135
+22:14:13.101 [Thread-192] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "Recognize",
+      "messageId" : "10efe5ac-d2ec-4a08-8749-702ce3e43465",
+      "dialogRequestId" : "18a57dd0-2958-44c0-97b4-81c6e3492193"
+    },
+    "payload" : {
+      "profile" : "NEAR_FIELD",
+      "format" : "AUDIO_L16_RATE_16000_CHANNELS_1"
+    }
+  },
+  "context" : [ {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Dee-Domain-Music#ACRI#url#ACRI#a0ecac51-3d7c-4050-a4ce-635d07eb8c5d:1",
+      "offsetInMilliseconds" : 10135,
+      "playerActivity" : "STOPPED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "SpeechSynthesizer",
+      "name" : "SpeechState"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.Domain:Application:Music#ACRI#DeviceTTSRendererV4_2e44735f-e0a1-4a66-8418-6d914f9b175d",
+      "offsetInMilliseconds" : 0,
+      "playerActivity" : "FINISHED"
+    }
+  }, {
+    "header" : {
+      "namespace" : "Alerts",
+      "name" : "AlertsState"
+    },
+    "payload" : {
+      "allAlerts" : [ ],
+      "activeAlerts" : [ ]
+    }
+  }, {
+    "header" : {
+      "namespace" : "Speaker",
+      "name" : "VolumeState"
+    },
+    "payload" : {
+      "volume" : 50,
+      "muted" : false
+    }
+  } ]
+}
+22:14:13.113 [Thread-192] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Speech request started
+22:14:13.114 [Thread-192] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Interrupting all Alexa output
+22:14:13.117 [RequestThread] INFO  com.amazon.alexa.avs.http.CachingContentProvider - Create new CachingIterator
+22:14:17.140 [DownchannelRequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "SpeechRecognizer",
+      "name" : "StopCapture",
+      "messageId" : "1b3ff0fb-d9d5-41e7-9ff3-8b024432e484"
+    },
+    "payload" : { }
+  }
+}
+22:14:17.145 [IndependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: SpeechRecognizer.StopCapture
+22:14:17.219 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished listening to user speech
+22:14:17.221 [IndependentDirectiveThread] DEBUG com.amazon.alexa.avs.wakeword.WakeWordIPCSocket - Sending command IPC_RESUME_WAKE_WORD_ENGINE to all connected clients
+22:14:19.166 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 200
+22:14:19.166 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-7
+content-type: multipart/related;boundary=dbe94f2d-fc89-4b89-b3bf-86d40796ca3c;start=metadata.1488694459100;type="application/json"
+
+
+22:14:19.171 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "directive" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "Play",
+      "messageId" : "c4a73c6f-a4f0-404d-b2f0-a15e30c69a82",
+      "dialogRequestId" : "18a57dd0-2958-44c0-97b4-81c6e3492193"
+    },
+    "payload" : {
+      "audioItem" : {
+        "audioItemId" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+        "stream" : {
+          "offsetInMilliseconds" : 0,
+          "expiryTime" : "1969-12-31T23:59:59+0000",
+          "metadataToken" : "wuup33UXQWBBWvHCiyvkWKUZYmjKDkqt7BZ8GuNdr3HfpKqy5QyzFaG58WPkODtWsQnMKCsbwDx0-2rVPnZIwF6zllB3o_FWBe4czD5Z1h3PUGF9ip1pv4xUQebiCBwuxMDBNWVZidGLr8EVxtxsmNPy0Fdjay_p7m20TuN5VbU8HNNT8t6NIVnb-CJYhXv3UZwlkAlUcEn49N2KbWd72S_CFNsPIb6O9u4-eof7bpAR_OBC250V5GdDvfEp8SUFpflignEHbBqc63De6pZ9NW7bo4blfk0EZA6RQcwhMGM-9NDf_x7fqtO7r010p_lzpf_NO31RU1G6H7iUq7OxxoLeD0MtH4mJVuOsxIqZvbjXYZDxSQ6Jno-4s4FPQ1QDd7JvpPGBkRiMfuqQ3hyhdMhJt-tXZlMq6TBXJErOhsQhfWQNfmJ7ufJvcE2LpV3oVt_UNitKw0zekG6TwyVyXEbM7eMXrORoA__ps_REFibGbjycWOyC95Wx60c2qEg15stMh3HNuX6yVY-O5m7DWkwv1MoCSWfXdyDb83Sk6k_kO-Akbd6R99WSAJoBM_dA2Fzu_fzGB7zQXN90J9WvGhLiz0mJ_sSkgh9-oYwWLKD-2m6_qKAh6RZCYfTkxPRVAXQgKyLIvozURJ7pkZ6AY7qcn0iVErIEXESJizPlq7nvP1quQXzxMDAx",
+          "url" : "https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav",
+          "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}"
+        }
+      },
+      "playBehavior" : "REPLACE_ALL"
+    }
+  }
+}
+22:14:19.175 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - Handling directive: AudioPlayer.Play
+22:14:19.176 [DependentDirectiveThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Dispatching directive
+22:14:19.176 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSController - handleAudioPlayerDirective: Getting 40.wav
+22:14:19.176 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - URL: https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:14:19.177 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - StreamId: amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{"directedCustomerId":"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y","modelKey":"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03","obfuscatedCustomerId":"A12B8DZ8FO4X68","token":"0"}
+22:14:19.177 [DependentDirectiveThread] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Offset: 0
+22:14:19.179 [RequestThread] DEBUG com.amazon.alexa.avs.AVSController - Speech processing finished. Dependent queue size: 0
+22:14:19.179 [RequestThread] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Finished processing speech request
+22:14:19.180 [Thread-197] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Started resume audio thread
+22:14:19.181 [Thread-197] DEBUG com.amazon.alexa.avs.SpeechRequestAudioPlayerPauseController - Resuming all Alexa output
+22:14:19.182 [Thread-197] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - Resuming all Alexa output
+22:14:19.263 [Thread-196] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:14:19.263 [Thread-196] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Resetting AudioPlayerTimer
+22:14:19.269 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - newMedia: https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:14:20.129 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer - playing: https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:14:20.130 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AVSAudioPlayer -     length: 453
+22:14:20.130 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+22:14:20.130 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 0
+22:14:20.131 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerProgressReporter - Scheduling ProgressReportIntervalElapsed event in 900000 ms that will repeat every 900000 ms
+22:14:20.196 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Resetting AudioPlayerTimer
+22:14:20.197 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackStarted
+22:14:20.197 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 0
+22:14:20.198 [pool-8-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackStarted",
+      "messageId" : "24ee1ef1-873b-4c26-a23a-82a8eedbe7d9"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 0
+    }
+  }
+}
+22:14:20.200 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Starting AudioPlayerTimer
+22:14:20.714 [pool-8-thread-1] INFO  com.amazon.alexa.avs.AVSAudioPlayer - Finished playing https://s3.amazonaws.com/aws-website-lielu-4nbti/40.wav
+22:14:20.715 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Stopping AudioPlayerTimer
+22:14:20.716 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackNearlyFinished
+22:14:20.716 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 453
+22:14:20.717 [pool-8-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackNearlyFinished",
+      "messageId" : "5adafcf9-0117-4d83-9e6e-6bc11331b7c3"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 453
+    }
+  }
+}
+22:14:20.719 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerStateMachine - PlaybackFinished
+22:14:20.720 [pool-8-thread-1] DEBUG com.amazon.alexa.avs.AudioPlayerTimer - Getting offset. Offset: 453
+22:14:20.721 [pool-8-thread-1] INFO  com.amazon.alexa.avs.http.AVSClient - Request metadata: 
+{
+  "event" : {
+    "header" : {
+      "namespace" : "AudioPlayer",
+      "name" : "PlaybackFinished",
+      "messageId" : "8598c9ae-5697-4d57-8b92-c41b4d20d56c"
+    },
+    "payload" : {
+      "token" : "amzn1.as-ct.v1.ThirdPartySdkSpeechlet#ACRI#url#ACRI#{\"directedCustomerId\":\"amzn1.ask.account.AHPEMTLMLKEXQJBGXJKYHZCNGBRMKUHCFZIPXQB65YFVML344HJA6G2RZSWDTF55YEGQPOLUFGIA6G33SOWX7BLNFIYKHWIMXCNLWLKGKDUZMFOEZMPUVLBY6MHSRYCZAPKPF7TJ7EXJMLJAF3QBJC72QONVAENWQ3SNVQA4KBXD2MFQZSD2BT3U4JHI4SRXJPJL3H4LYWCT57Y\",\"modelKey\":\"amzn1.ask.skill.a16e43e6-7b4e-49b2-bbe2-120de387cd03\",\"obfuscatedCustomerId\":\"A12B8DZ8FO4X68\",\"token\":\"0\"}",
+      "offsetInMilliseconds" : 453
+    }
+  }
+}
+22:14:20.875 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+22:14:20.875 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-9
+
+
+22:14:20.875 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.
+22:14:21.246 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 500
+22:14:21.247 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-11
+access-control-allow-headers: authorization,x-amz-access-token
+content-type: application/json; charset=UTF-8
+
+
+22:14:21.252 [RequestThread] INFO  com.amazon.alexa.avs.http.MessageParser - Response metadata: 
+{
+  "header" : {
+    "namespace" : "System",
+    "name" : "Exception",
+    "messageId" : "ed156597-8565-4dde-bf2a-ba0746b14d23"
+  },
+  "payload" : {
+    "code" : "INTERNAL_SERVICE_EXCEPTION",
+    "description" : "Request could not be executed due to an internal service error."
+  }
+}
+22:14:21.276 [RequestThread] ERROR com.amazon.alexa.avs.http.AVSClient - There was a problem with the request.
+com.amazon.alexa.avs.exception.AlexaSystemException: Request could not be executed due to an internal service error.
+	at com.amazon.alexa.avs.message.response.AlexaExceptionResponse.throwException(AlexaExceptionResponse.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.parseException(AVSClient.java:332) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequestActual(AVSClient.java:300) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$200(AVSClient.java:66) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:229) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$2.call(AVSClient.java:224) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AbstractRetryPolicy.tryCall(AbstractRetryPolicy.java:38) ~[classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.doRequest(AVSClient.java:235) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient.access$400(AVSClient.java:66) [classes/:?]
+	at com.amazon.alexa.avs.http.AVSClient$RequestThread.run(AVSClient.java:554) [classes/:?]
+22:14:21.775 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response code: 204
+22:14:21.775 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - Response headers: access-control-allow-origin: *
+x-amzn-requestid: 06013efffe21a485-00007f39-0001d490-f72d01f1750a6a50-3065b23f-13
+
+
+22:14:21.776 [RequestThread] INFO  com.amazon.alexa.avs.http.AVSClient - This response successfully had no content.

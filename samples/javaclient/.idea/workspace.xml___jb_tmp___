@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="890206d4-c0f7-4b79-928c-d824dbc82965" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/libs/login-with-amazon-sdk.jar" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/libs/login-with-amazon-sdk.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-hdpi/btnlwa_gold_loginwithamazon.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-hdpi/btnlwa_gold_loginwithamazon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-hdpi/btnlwa_gold_loginwithamazon_pressed.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-hdpi/btnlwa_gold_loginwithamazon_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-mdpi/btnlwa_gold_loginwithamazon.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-mdpi/btnlwa_gold_loginwithamazon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-mdpi/btnlwa_gold_loginwithamazon_pressed.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-mdpi/btnlwa_gold_loginwithamazon_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xhdpi/btnlwa_gold_loginwithamazon.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xhdpi/btnlwa_gold_loginwithamazon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xhdpi/btnlwa_gold_loginwithamazon_pressed.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xhdpi/btnlwa_gold_loginwithamazon_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xxhdpi/btnlwa_gold_loginwithamazon.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xxhdpi/btnlwa_gold_loginwithamazon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xxhdpi/btnlwa_gold_loginwithamazon_pressed.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable-xxhdpi/btnlwa_gold_loginwithamazon_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/../androidCompanionApp/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/btnLWA_gold_209x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/btnLWA_gold_209x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/btnLWA_gold_209x48_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/btnLWA_gold_209x48_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/LoginWithAmazon" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/LoginWithAmazon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/LoginWithAmazon" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/LoginWithAmazon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/LoginWithAmazon" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/LoginWithAmazon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/Default-568h@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/Default-568h@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_157x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_157x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_157x36_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_157x36_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_209x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_209x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_209x48_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_209x48_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_314x72.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_314x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_314x72_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/App/btnLWA_gold_314x72_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_34x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_34x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_34x36_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_34x36_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_77x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_77x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_77x36_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Drkgry_77x36_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_34x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_34x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_34x36_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_34x36_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_77x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_77x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_77x36_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gold_77x36_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_34x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_34x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_34x36_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_34x36_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_77x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_77x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_77x36_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_Gry_77x36_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_drkgry_157x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_drkgry_157x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_drkgry_157x36_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_drkgry_157x36_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gold_157x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gold_157x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gold_157x36_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gold_157x36_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gry_157x36.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gry_157x36.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gry_157x36_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/1x/btnLWA_gry_157x36_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Drkgry_77x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Drkgry_77x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Drkgry_77x36_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Drkgry_77x36_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gold_77x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gold_77x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gold_77x36_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gold_77x36_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gry_77x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gry_77x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gry_77x36_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_Gry_77x36_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgray_157x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgray_157x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgray_157x36_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgray_157x36_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgry_34x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgry_34x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgry_34x36_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_drkgry_34x36_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_157x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_157x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_157x36_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_157x36_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_34x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_34x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_34x36_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gold_34x36_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_157x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_157x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_157x36_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_157x36_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_34x36@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_34x36@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_34x36_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/32dp/2x/btnLWA_gry_34x36_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_102x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_102x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_102x48_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_102x48_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_46x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_46x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_46x48_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Drkgry_46x48_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_102x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_102x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_102x48_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_102x48_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_46x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_46x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_46x48_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gold_46x48_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_102x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_102x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_102x48_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_102x48_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_46x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_46x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_46x48_Pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_Gry_46x48_Pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_drkgry_209x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_drkgry_209x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_drkgry_209x48_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_drkgry_209x48_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_gry_209x48.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_gry_209x48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_gry_209x48_pressed.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/1x/btnLWA_gry_209x48_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_102x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_102x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_102x48_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_102x48_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_46x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_46x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_46x48_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Drkgry_46x48_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_102x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_102x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_102x48_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_102x48_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_46x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_46x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_46x48_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gold_46x48_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_102x486@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_102x486@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_102x48_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_102x48_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_46x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_46x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_46x48_Pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_Gry_46x48_Pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_drkgry_209x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_drkgry_209x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_drkgry_209x48_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_drkgry_209x48_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gold_209x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gold_209x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gold_209x48_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gold_209x48_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gry_209x48@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gry_209x48@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gry_209x48_pressed@2x.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Resources/iOS/44dp/2x/btnLWA_gry_209x48_pressed@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/btnLWA_Gold_94x96.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/btnLWA_Gold_94x96.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/btnLWA_gold_68x72.png" afterPath="$PROJECT_DIR$/../iOSCompanionApp/btnLWA_gold_68x72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res/alarm.mp3" afterPath="$PROJECT_DIR$/src/main/resources/res/alarm.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res/error.mp3" afterPath="$PROJECT_DIR$/src/main/resources/res/error.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res/start.mp3" afterPath="$PROJECT_DIR$/src/main/resources/res/start.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res/stop.mp3" afterPath="$PROJECT_DIR$/src/main/resources/res/stop.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="$PROJECT_DIR$/../../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CONTRIBUTING.md" afterPath="$PROJECT_DIR$/../../CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Installer_Licenses.txt" afterPath="$PROJECT_DIR$/../../Installer_Licenses.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../LICENSE.txt" afterPath="$PROJECT_DIR$/../../LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../NOTICE.txt" afterPath="$PROJECT_DIR$/../../NOTICE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../README.md" afterPath="$PROJECT_DIR$/../../README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../README.txt" afterPath="$PROJECT_DIR$/../../README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../RELEASE.txt" afterPath="$PROJECT_DIR$/../../RELEASE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../automated_install.sh" afterPath="$PROJECT_DIR$/../../automated_install.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/README.txt" afterPath="$PROJECT_DIR$/../androidCompanionApp/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/build.gradle" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/AuthConstants.java" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/AuthConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/CompanionProvisioningInfo.java" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/CompanionProvisioningInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/DeviceProvisioningInfo.java" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/DeviceProvisioningInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/LoginWithAmazonActivity.java" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/LoginWithAmazonActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/ProvisioningClient.java" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/java/com/amazon/alexa/avs/companion/ProvisioningClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable/login_button.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/drawable/login_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/layout/lwa_activity.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/layout/lwa_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../androidCompanionApp/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/build.gradle" afterPath="$PROJECT_DIR$/../androidCompanionApp/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../androidCompanionApp/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/gradlew" afterPath="$PROJECT_DIR$/../androidCompanionApp/gradlew" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/gradlew.bat" afterPath="$PROJECT_DIR$/../androidCompanionApp/gradlew.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../androidCompanionApp/settings.gradle" afterPath="$PROJECT_DIR$/../androidCompanionApp/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../companionService/app.js" afterPath="$PROJECT_DIR$/../companionService/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../companionService/authentication.js" afterPath="$PROJECT_DIR$/../companionService/authentication.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../companionService/bin/www" afterPath="$PROJECT_DIR$/../companionService/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../companionService/config.js" afterPath="$PROJECT_DIR$/../companionService/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../companionService/package.json" afterPath="$PROJECT_DIR$/../companionService/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../companionService/template_config_js" afterPath="$PROJECT_DIR$/../companionService/template_config_js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/AlexaCompanionAppSample.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../iOSCompanionApp/AlexaCompanionAppSample.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSApplicationDelegate.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSApplicationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSApplicationDelegate.m" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSApplicationDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSDeviceResponse.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSDeviceResponse.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSDeviceResponse.m" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/AVSDeviceResponse.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/AlexaCompanionAppSample-Info.plist" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/AlexaCompanionAppSample-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/AlexaCompanionAppSample-Prefix.pch" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/AlexaCompanionAppSample-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/LoginController.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/LoginController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/LoginController.m" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/LoginController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/ProvisioningClient.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/ProvisioningClient.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/ProvisioningClient.m" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/ProvisioningClient.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/en.lproj/MainStoryboard_iPad.storyboard" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/en.lproj/MainStoryboard_iPad.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/en.lproj/MainStoryboard_iPhone.storyboard" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/en.lproj/MainStoryboard_iPhone.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/Application/main.m" afterPath="$PROJECT_DIR$/../iOSCompanionApp/Application/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AIAuthenticationDelegate.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AIAuthenticationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AIError.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AIError.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AIMobileLib.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AIMobileLib.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNAuthorizationManager.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNAuthorizationManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNAuthorizeRequest.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNAuthorizeRequest.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNAuthorizeResult.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNAuthorizeResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNLWASDKInfo.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNLWASDKInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNProfileScope.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNProfileScope.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNScope.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNScope.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNScopeFactory.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNScopeFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNUser.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/AMZNUser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/LoginWithAmazon.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Headers/LoginWithAmazon.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Modules/module.modulemap" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Modules/module.modulemap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AIAuthenticationDelegate.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AIAuthenticationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AIError.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AIError.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AIMobileLib.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AIMobileLib.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNAuthorizationManager.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNAuthorizationManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNAuthorizeRequest.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNAuthorizeRequest.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNAuthorizeResult.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNAuthorizeResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNLWASDKInfo.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNLWASDKInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNProfileScope.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNProfileScope.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNScope.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNScope.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNScopeFactory.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNScopeFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNUser.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/AMZNUser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/LoginWithAmazon.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/A/Headers/LoginWithAmazon.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AIAuthenticationDelegate.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AIAuthenticationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AIError.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AIError.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AIMobileLib.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AIMobileLib.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNAuthorizationManager.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNAuthorizationManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNAuthorizeRequest.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNAuthorizeRequest.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNAuthorizeResult.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNAuthorizeResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNLWASDKInfo.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNLWASDKInfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNProfileScope.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNProfileScope.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNScope.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNScope.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNScopeFactory.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNScopeFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNUser.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/AMZNUser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/LoginWithAmazon.h" afterPath="$PROJECT_DIR$/../iOSCompanionApp/LoginWithAmazon.framework/Versions/Current/Headers/LoginWithAmazon.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate.bat" afterPath="$PROJECT_DIR$/generate.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate.sh" afterPath="$PROJECT_DIR$/generate.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install-java8.sh" afterPath="$PROJECT_DIR$/install-java8.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j2.xml" afterPath="$PROJECT_DIR$/log4j2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom_other.xml" afterPath="$PROJECT_DIR$/pom_other.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom_pi.xml" afterPath="$PROJECT_DIR$/pom_pi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/.gitkeep" afterPath="$PROJECT_DIR$/src/main/java/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSAPIConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSAPIConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSAudioPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSAudioPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSAudioPlayerFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSAudioPlayerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSController.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/Alert.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/Alert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertEventListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertEventListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertManagerFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertManagerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertScheduler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertScheduler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertsDataStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertsDataStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertsFileDataStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AlertsFileDataStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioCapture.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioCapture.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioInputFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioInputFormat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerEventPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerEventPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerProgressReporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerProgressReporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerStateMachine.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerStateMachine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerTimer.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioPlayerTimer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioStateOutputStream.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioStateOutputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/BlockableDirectiveThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/BlockableDirectiveThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DateUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DialogRequestIdAuthority.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DialogRequestIdAuthority.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DirectiveDispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DirectiveDispatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DirectiveEnqueuer.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/DirectiveEnqueuer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/ExpectSpeechListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/ExpectSpeechListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/ExpectStopCaptureListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/ExpectStopCaptureListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/MicrophoneLineFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/MicrophoneLineFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/PlaybackAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/PlaybackAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/RecordingRMSListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/RecordingRMSListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/RecordingStateListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/RecordingStateListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/RequestListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/RequestListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SimpleStateChangeTransition.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SimpleStateChangeTransition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SpeakItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SpeakItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SpeechProfile.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SpeechProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SpeechRequestAudioPlayerPauseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/SpeechRequestAudioPlayerPauseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/State.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/State.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/StateTransition.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/StateTransition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/UserActivityListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/UserActivityListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/AccessTokenListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/AccessTokenListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/AuthConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/AuthConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/AuthSetup.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/AuthSetup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/MissingParameterException.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/MissingParameterException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/OAuth2AccessToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/OAuth2AccessToken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/CodeChallengeWorkflow.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/CodeChallengeWorkflow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/CompanionAppAuthManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/CompanionAppAuthManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/CompanionAppProvisioningInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/CompanionAppProvisioningInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/DeviceProvisioningInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/DeviceProvisioningInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/LWAException.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/LWAException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/OAuth2ClientForPkce.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/OAuth2ClientForPkce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/OAuth2TokensForPkce.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/OAuth2TokensForPkce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/server/CompanionAppProvisioningServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/server/CompanionAppProvisioningServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/server/CompanionInfoHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/server/CompanionInfoHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/server/DeviceInfoHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionapp/server/DeviceInfoHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/CompanionServiceAuthManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/CompanionServiceAuthManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/CompanionServiceClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/CompanionServiceClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/CompanionServiceRegCodeResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/CompanionServiceRegCodeResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/RegCodeDisplayHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/auth/companionservice/RegCodeDisplayHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/config/DeviceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/config/DeviceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/config/DeviceConfigUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/config/DeviceConfigUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/config/ObjectMapperFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/config/ObjectMapperFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AVSException.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AVSException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AVSJsonProcessingException.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AVSJsonProcessingException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AlexaSystemException.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AlexaSystemException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AlexaSystemExceptionCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/AlexaSystemExceptionCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/DirectiveHandlingException.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/exception/DirectiveHandlingException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AVSClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AVSClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AVSClientFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AVSClientFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AbstractRetryPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AbstractRetryPolicy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AudioInputStreamContentProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/AudioInputStreamContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/CachingContentProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/CachingContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/ContentTypes.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/ContentTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/ExponentialRetryPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/ExponentialRetryPolicy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/HttpHeaders.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/HttpHeaders.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/LinearRetryPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/LinearRetryPolicy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/MessageParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/MessageParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/MultipartContentProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/MultipartContentProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/MultipartParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/MultipartParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/ParsingFailedHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/ParsingFailedHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/RetryPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/RetryPolicy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/jetty/InputStreamResponseListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/jetty/InputStreamResponseListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/jetty/PingSendingHttpClientTransportOverHTTP2.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/http/jetty/PingSendingHttpClientTransportOverHTTP2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/DialogRequestIdHeader.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/DialogRequestIdHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/Header.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/Header.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/MessageIdHeader.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/MessageIdHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/Payload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/Payload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/ComponentStateFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/ComponentStateFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/ContextEventRequestBody.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/ContextEventRequestBody.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/Event.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/RequestBody.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/RequestBody.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/RequestFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/RequestFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/alerts/AlertPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/alerts/AlertPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/AudioPlayerPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/AudioPlayerPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/PlaybackFailedPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/PlaybackFailedPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/PlaybackNearlyFinishedPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/PlaybackNearlyFinishedPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/PlaybackStutterFinishedPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/audioplayer/PlaybackStutterFinishedPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/AlertsStatePayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/AlertsStatePayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/ComponentState.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/ComponentState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/PlaybackStatePayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/PlaybackStatePayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/SpeechStatePayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/SpeechStatePayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/VolumeStatePayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/context/VolumeStatePayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/settings/LocaleSetting.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/settings/LocaleSetting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/settings/Setting.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/settings/Setting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/settings/SettingsUpdatedPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/settings/SettingsUpdatedPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/speechrecognizer/SpeechRecognizerPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/speechrecognizer/SpeechRecognizerPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/speechsynthesizer/SpeechLifecyclePayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/speechsynthesizer/SpeechLifecyclePayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/system/ExceptionEncounteredPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/system/ExceptionEncounteredPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/system/UserInactivityReportPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/request/system/UserInactivityReportPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/AlexaExceptionResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/AlexaExceptionResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/AttachedContentPayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/AttachedContentPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/Directive.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/Directive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/ProgressReport.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/ProgressReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/ResponseBody.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/ResponseBody.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/alerts/DeleteAlert.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/alerts/DeleteAlert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/alerts/SetAlert.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/alerts/SetAlert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/AudioItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/AudioItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/ClearQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/ClearQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/Play.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/Play.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/Stop.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/Stop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/Stream.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/audioplayer/Stream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/AdjustVolume.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/AdjustVolume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/SetMute.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/SetMute.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/SetVolume.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/SetVolume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/VolumePayload.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speaker/VolumePayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speechrecognizer/Listen.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speechrecognizer/Listen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speechsynthesizer/ExpectSpeech.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speechsynthesizer/ExpectSpeech.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speechsynthesizer/Speak.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/speechsynthesizer/Speak.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/system/Exception.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/system/Exception.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/system/SetEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/message/response/system/SetEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/NewWakeWordReadyInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/NewWakeWordReadyInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordDetectedHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordDetectedHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPC.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPCConnectedClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPCConnectedClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPCFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPCFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPCSocket.java" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/wakeword/WakeWordIPCSocket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res/README.txt" afterPath="$PROJECT_DIR$/src/main/resources/res/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/res/version.properties" afterPath="$PROJECT_DIR$/src/main/resources/res/version.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssl.cnf" afterPath="$PROJECT_DIR$/ssl.cnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template_config_json" afterPath="$PROJECT_DIR$/template_config_json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template_generate_sh" afterPath="$PROJECT_DIR$/template_generate_sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template_ssl_cnf" afterPath="$PROJECT_DIR$/template_ssl_cnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/GPIOWakeWordEngine.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/GPIOWakeWordEngine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/GPIOWakeWordEngine.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/GPIOWakeWordEngine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/IPCInterface.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/IPCInterface.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/IPCInterface.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/IPCInterface.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/KittAiSnowboyWakeWordEngine.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/KittAiSnowboyWakeWordEngine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/KittAiSnowboyWakeWordEngine.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/KittAiSnowboyWakeWordEngine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/Logger.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/Logger.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/Logger.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/Logger.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/PortAudioWrapper.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/PortAudioWrapper.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/PortAudioWrapper.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/PortAudioWrapper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/SensoryWakeWordEngine.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/SensoryWakeWordEngine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/SensoryWakeWordEngine.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/SensoryWakeWordEngine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordAgent.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordAgent.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordAgent.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordAgent.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordDetectedInterface.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordDetectedInterface.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngine.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngine.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngineFactory.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngineFactory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngineFactory.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordEngineFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordException.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordException.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordException.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordException.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPC.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPC.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPC.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPC.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCFactory.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCFactory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCFactory.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCSocket.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCSocket.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCSocket.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordIPCSocket.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordUtils.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/WakeWordUtils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/src/main.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/CMakeLists.txt" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/main.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testGPIO.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testGPIO.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testGPIO.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testGPIO.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testIPCFactory.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testIPCFactory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testIPCFactory.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testIPCFactory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testKittAi.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testKittAi.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testKittAi.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testKittAi.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testLogger.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testLogger.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testLogger.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testLogger.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testSensory.cpp" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testSensory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wakeWordAgent/tst/testSensory.h" afterPath="$PROJECT_DIR$/../wakeWordAgent/tst/testSensory.h" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AVSRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1731#1732#0" expanded="false" />
+                <element signature="e#1762#1763#0" expanded="false" />
+                <element signature="e#1813#1814#0" expanded="false" />
+                <element signature="e#1851#1852#0" expanded="false" />
+                <element signature="e#1894#1895#0" expanded="false" />
+                <element signature="e#1928#1929#0" expanded="false" />
+                <element signature="e#1979#1980#0" expanded="false" />
+                <element signature="e#2017#2018#0" expanded="false" />
+                <element signature="e#2078#2079#0" expanded="false" />
+                <element signature="e#2137#2138#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioCapture.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioCapture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="890206d4-c0f7-4b79-928c-d824dbc82965" name="Default" comment="" />
+      <created>1487839759991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487839759991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1731#1732#0" expanded="false" />
+            <element signature="e#1762#1763#0" expanded="false" />
+            <element signature="e#1813#1814#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1894#1895#0" expanded="false" />
+            <element signature="e#1928#1929#0" expanded="false" />
+            <element signature="e#1979#1980#0" expanded="false" />
+            <element signature="e#2017#2018#0" expanded="false" />
+            <element signature="e#2078#2079#0" expanded="false" />
+            <element signature="e#2137#2138#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AVSRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1731#1732#0" expanded="false" />
+            <element signature="e#1762#1763#0" expanded="false" />
+            <element signature="e#1813#1814#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1894#1895#0" expanded="false" />
+            <element signature="e#1928#1929#0" expanded="false" />
+            <element signature="e#1979#1980#0" expanded="false" />
+            <element signature="e#2017#2018#0" expanded="false" />
+            <element signature="e#2078#2079#0" expanded="false" />
+            <element signature="e#2137#2138#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amazon/alexa/avs/AudioCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
